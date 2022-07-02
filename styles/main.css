@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Finlandica', sans-serif;
+  font-weight: normal;
+}
+
+.navbar {
+  height: 94px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-custom1 {
+  background-color: #F8C1B9;
+}
+
+.navbar-text {
+  font-family: 'Finlandica', sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 24px;
+}
+
+.form-input {
+  background-color: #D36E61;
+  height: 525px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.form-input form {
+  padding-top: 54px;
+}
+
+.card-header h1 {
+  font-family: 'Finlandica', sans-serif;
+  font-weight: 600;
+}
+
+.bg-custom2 {
+  background-color: #EBCF75;
+  -webkit-box-shadow: 8px 10px;
+          box-shadow: 8px 10px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.form-label {
+  font-family: 'Finlandica', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.form-control:focus {
+  background-color: #CCB464;
+  border: 2px solid #D36E61;
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type=text] {
+  background-color: #CCB464;
+  border: 3px solid #FFE07E;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: black;
+}
+
+.form-control:-ms-input-placeholder {
+  color: black;
+}
+
+.form-control::-ms-input-placeholder {
+  color: black;
+}
+
+.form-control::placeholder {
+  color: black;
+}
+
+.btn-custom1 {
+  background-color: #D36E61;
+  color: white;
+  margin: 5px 0;
+  font-family: 'Finlandica', sans-serif;
+  font-weight: normal;
+  margin-right: 6px;
+}
+
+.btn-custom1:hover {
+  background-color: #EC796A;
+  color: white;
+  margin: 5px 0;
+  font-family: 'Finlandica', sans-serif;
+  font-weight: normal;
+  margin-right: 6px;
+}
+
+.btn-custom2 {
+  background-color: #4A4544;
+  color: white;
+  margin: 5px 0;
+  font-family: 'Finlandica', sans-serif;
+  font-weight: normal;
+}
+
+.btn-custom2:hover {
+  background-color: #645D5D;
+  color: white;
+  margin: 5px 0;
+  font-family: 'Finlandica', sans-serif;
+  font-weight: normal;
+}
+
+.item {
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 16px;
+  padding: 12px 24px 12px 24px;
+  background: #EBCF75;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.item > .inner h2 {
+  margin-bottom: unset;
+  font-weight: 700;
+}
+
+.item > .inner p {
+  margin-top: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+          box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+}
+
+.card-footer p {
+  font-size: 14px;
+  margin-top: 9px;
+}
+
+.form-results {
+  background-color: #EBCF75;
+  width: 100%;
+  height: auto;
+}
+
+.bg-custom3 {
+  background-color: #D36E61;
+  -webkit-box-shadow: 8px 10px;
+          box-shadow: 8px 10px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.check-button {
+  width: 50px;
+  height: 50px;
+  background: url("../source/images/check.png");
+  background-size: contain;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.check-button:hover {
+  background: url("../source/images/check2.png");
+  background-size: contain;
+}
+
+.trash-button {
+  width: 50px;
+  height: 50px;
+  background: url("../source/images/trash.png");
+  background-size: contain;
+  margin-left: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.trash-button:hover {
+  background: url("../source/images/trash2.png");
+  background-size: contain;
+}
+
+.undo-button {
+  width: 40px;
+  height: 40px;
+  background: url("../source/images/undo.png");
+  background-size: contain;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.undo-button:hover {
+  background: url("../source/images/undo2.png");
+  background-size: contain;
+}
+
+.web-footer {
+  background-color: #F8C1B9;
+  width: 100%;
+  height: 72px;
+}
+
+.text-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 26px;
+  font-style: italic;
+}
+
+.text-sm1 {
+  display: none;
+}
+
+.icon-footer {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-brand {
+    position: absolute;
+    left: 30%;
+  }
+  .text-footer {
+    display: none;
+  }
+  .icon-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icon-footer a img {
+    margin-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 4px;
+  }
+  .text-sm1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 12px;
+    padding-top: 6px;
+    font-style: italic;
+  }
+}
+/*# sourceMappingURL=main.css.map */
